@@ -1,6 +1,8 @@
 # Sistema de Gestion y Control de Eventos Academicos
 
-Aplicacion full stack con backend en Javalin 7 + Hibernate + H2 y frontend en React 19 + Vite 8. El sistema cubre autenticacion por sesion, gestion de eventos por roles, inscripciones, QR, asistencia y estadisticas visuales.
+Aplicacion full stack con backend en Javalin 7 + Hibernate + H2 y frontend en React + Vite. El sistema cubre autenticacion por sesion, gestion de eventos por roles, inscripciones, QR, asistencia y estadisticas visuales para fines de eventos académicos por la solicitud del Parcial #2 de Programación Web por el profesor Carlos Alfredo Camacho. De paso, proyecto interesante personal el cual puede servir para otras áreas.
+
+Creado por Miguel G. Rodríguez (10154714) y José A. Hidalgo (10155858)
 
 ## Arquitectura
 
