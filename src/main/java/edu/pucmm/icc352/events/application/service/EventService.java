@@ -186,7 +186,7 @@ public final class EventService {
         if (command.startsAt() == null) {
             throw AppException.badRequest("La fecha del evento es obligatoria.");
         }
-        if (!command.startsAt().isAfter(LocalDateTime.now(clock))) {
+        if (!command.startsAt().isAfter(LocalDateTime.now())) {
             throw AppException.badRequest("La fecha del evento debe ser futura.");
         }
         if (command.maxCapacity() == null || command.maxCapacity() <= 0) {
